@@ -49,9 +49,9 @@ This project analyzes $24.2 trillion in private capital across six asset classes
 
 ## Techniques Demonstrated
 
-- Interactive visuals: line, stacked area, bar, and combo charts
-- DAX: measures for CAGR, IRR calculations, and dynamic tooltips
-- Layout design: titles, spacing, shape overlays, responsive insights
+- **Interactive visuals**: line, stacked area, bar, and combo charts
+- **DAX**: measures for CAGR, IRR calculations, and dynamic tooltips
+- **Layout design**: titles, spacing, shape overlays, responsive insights
 
 ---
 
