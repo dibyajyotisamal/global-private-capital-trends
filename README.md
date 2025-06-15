@@ -67,7 +67,3 @@ This project analyzes $24.2 trillion in private capital across six asset classes
 - GitHub: [dibyajyotisamal](https://github.com/dibyajyotisamal)
 - LinkedIn: [dibyajyoti-samal](https://www.linkedin.com/in/dibyajyoti-samal/)
 
----
-
-> "Built for clarity. Backed by analysis. Designed to impress."
-
