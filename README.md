@@ -40,7 +40,7 @@ This project analyzes $24.2 trillion in private capital across six asset classes
 ## Dataset Summary
 
 - **Source**: Curated from Preqin (BlackRock) strategy-level datasets
-- **Scope**: ~5 structured tables | Time period: 2000–2025
+- **Scope**: 5 structured tables | Time period: 2000–2025
 - **Fields**: IRR, Capital Raised, Deal Volume, AUM
 - **Asset Classes**: PE, VC, Real Estate, Infra, Private Debt, Hedge Funds
 - **Process**: Cleaned in Excel, modeled in Power BI using fact-dimension schema
@@ -57,9 +57,7 @@ This project analyzes $24.2 trillion in private capital across six asset classes
 
 ## Future Enhancements
 
-- PME Benchmarking vs Public Markets
 - Region-based strategy filters
-- GP/LP segmentation panels
 - Predictive modeling for strategy-level forecasts
 
 ---
