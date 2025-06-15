@@ -27,10 +27,10 @@ This project analyzes $24.2 trillion in private capital across six asset classes
 ## Dashboard Preview (Selected Panels)
 
 ### Capital Raised Over Time
-![Panel 1 - Capital Raised](Dashboard_panels/Panel_1_Capital_Raised_Trends_2004_2024.jpg)
+![Panel 1 - Capital Raised](Dashboard_panels/Panel_1_Capital_Raised_Trends_by_Asset_Class_2004_2024.jpg)
 
 ### IRR Trends by Strategy
-![Panel 3 - IRR Trends](Dashboard_panels/Panel_3_IRR_Trends_1Y_to_10Y.jpg)
+![Panel 3 - IRR Trends](Dashboard_panels/Panel_3_IRR_Trends_by_Asset_Class_1Y_to_10Y_Horizon.jpg)
 
 ### AUM Growth Across Strategies
 ![Panel 5 - AUM Growth](Dashboard_panels/Panel_5_AUM_Growth_by_Strategy_2000_2024.jpg)
