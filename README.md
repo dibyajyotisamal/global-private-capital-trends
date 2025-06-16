@@ -2,7 +2,7 @@
 
 ## Summary
 
-This dashboard analyzes **$24.2 trillion in global private capital** across six asset classes from 2000 to 2025. Built for **asset managers, institutional analysts, and strategic decision-makers**, it uncovers critical shifts in **capital flow**, **AUM growth**, and **IRR trends**, offering actionable insight into **market timing**, **strategy resilience**, and **allocation efficiency**.
+This dashboard analyzes **$24.2 trillion in global private capital** across six asset classes from 2000 to 2025. Built for **asset managers, institutional analysts, and strategic decision-makers**, it uncovers critical shifts in **capital flow**, **AUM growth**, and **IRR trends**, offering actionable insight into **market timing**, **strategy resilience**, and **allocation efficiency**. Key insights include the decline in VC/PE IRR, consistent growth in Infrastructure and Private Debt, and 2021's peak in fundraising and deal activity.
 
 ---
 
