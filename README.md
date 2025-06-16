@@ -2,7 +2,7 @@
 
 ## Summary
 
-This dashboard explores $24.2 trillion in private capital data across six key asset classes from 2000 to 2025. Built for institutional-level insights, it helps decision-makers understand market shifts, volatility, and performance trends—particularly the sharp changes post-2022. The dashboard is designed to guide asset allocation strategy, evaluate fund stability, and assess risk-adjusted returns.
+This dashboard analyzes **$24.2 trillion in global private capital** across six asset classes from 2000 to 2025. Built for **asset managers, institutional analysts, and strategic decision-makers**, it uncovers critical shifts in **capital flow**, **AUM growth**, and **IRR trends**, offering actionable insight into **market timing**, **strategy resilience**, and **allocation efficiency**.
 
 ---
 
