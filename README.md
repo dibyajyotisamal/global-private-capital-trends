@@ -2,63 +2,75 @@
 
 ## Summary
 
-This project analyzes $24.2 trillion in private capital across six asset classes from 2000 to 2025—identifying peak investment years, volatility patterns, and post-2022 shifts. Built in Power BI, it's structured as an institutional-grade reporting suite designed to help hiring managers evaluate business acumen, storytelling, and analytical execution.
+This dashboard explores $24.2 trillion in private capital data across six key asset classes from 2000 to 2025. Built for institutional-level insights, it helps decision-makers understand market shifts, volatility, and performance trends—particularly the sharp changes post-2022. The dashboard is designed to guide asset allocation strategy, evaluate fund stability, and assess risk-adjusted returns.
 
 ---
 
-## Key Insights
+## Business Insights & Recommendations
 
-- Private Equity surged post-2010 but slowed sharply after 2022
-- 2021 marked peak capital deployment and deal activity
-- Venture Capital was the most volatile; Infra and Private Debt offered consistent returns
-- Hedge Funds led in fund launches, but VC dominated deal activity until 2022
-- AUM trends shifted from Real Estate toward Infra and Private Debt
+- **VC and PE IRR** dropped significantly post-2022 → suggests caution in allocating capital to these high-risk strategies in 2025.
+- **Infrastructure and Private Debt** show stable IRR and consistent growth → more resilient to macroeconomic shocks.
+- **2021** marked the peak of capital deployment and deal volume → aligns with global liquidity trends.
+- **Real Estate AUM** growth stagnated → investors may be rotating capital into debt or infrastructure.
+- **Fund launches** rose sharply in Hedge Funds post-2020 → potentially indicating lower barriers to entry or speculative growth.
+- **Deal volume decline post-2022** indicates reduced investor appetite or tightening conditions.
 
 ---
 
 ## Tools & Techniques Used
 
-- **Power BI** – dashboards, tooltips, data modeling, DAX
-- **Excel** – data cleanup, formatting, preprocessing
-- **Design & Storytelling** – insight captions, visual hierarchy, layout polish
+- **Power BI** – dashboards, dynamic tooltips, data modeling, DAX (see below)
+- **Excel** – raw data cleanup, preprocessing, formatting
+- **Design & Storytelling** – visual hierarchy, panel layout, annotation captions
+
+---
+
+## Technical Highlights (DAX)
+
+- **YoY Change (%):**
+
+  ```DAX
+  YoY % Change = 
+   ([ThisYear] - [LastYear]) / [LastYear] * 100
+  ```
+
+  _Tracks yearly fluctuations in capital raised and fund launches—used to highlight yearly momentum or slowdowns in fundraising and fund launches._
+
+- **Average IRR by Strategy:**
+
+  ```DAX
+  Avg IRR = AVERAGE(StrategyTable[IRR])
+  ```
+
+  _Computes the average internal rate of return for each asset class—used to compare profitability across fund strategies._
 
 ---
 
 ## Dashboard Preview (Selected Panels)
 
 ### Capital Raised Over Time
-![Panel 1 - Capital Raised](Dashboard_panels/Panel_1_Capital_Raised_Trends_by_Asset_Class_2004_2024.jpg)
 
 ### IRR Trends by Strategy
-![Panel 3 - IRR Trends](Dashboard_panels/Panel_3_IRR_Trends_by_Asset_Class_1Y_to_10Y_Horizon.jpg)
 
 ### AUM Growth Across Strategies
-![Panel 5 - AUM Growth](Dashboard_panels/Panel_5_AUM_Growth_by_Strategy_2000_2024.jpg)
 
 ---
 
 ## Dataset Summary
 
-- **Source**: Curated from Preqin (BlackRock) strategy-level datasets
-- **Scope**: 5 structured tables | Time period: 2000–2025
-- **Fields**: IRR, Capital Raised, Deal Volume, AUM
+- **Source**: [Preqin via BlackRock insights](https://pro.preqin.com)
+- **Time Range**: 2000–2025
+- **Data Format**: 5 structured tables (fact + dimension model)
+- **Metrics**: Capital Raised, AUM, Deal Volume, IRR
 - **Asset Classes**: PE, VC, Real Estate, Infra, Private Debt, Hedge Funds
-- **Process**: Cleaned in Excel, modeled in Power BI using fact-dimension schema
-
----
-
-## Techniques Demonstrated
-
-- **Interactive visuals**: line, stacked area, bar, and combo charts
-- **DAX**: measures for CAGR, IRR calculations, and dynamic tooltips
-- **Layout design**: titles, spacing, shape overlays, responsive insights
+- **Preprocessing**: Excel cleanup → Power BI modeling
 
 ---
 
 ## Future Enhancements
 
-- Region-based strategy filters
-- Predictive modeling for strategy-level forecasts
+- Regional segmentation & filters
+- Forecasting metrics using time series analysis
 
 ---
 
@@ -67,3 +79,4 @@ This project analyzes $24.2 trillion in private capital across six asset classes
 - GitHub: [dibyajyotisamal](https://github.com/dibyajyotisamal)
 - LinkedIn: [dibyajyoti-samal](https://www.linkedin.com/in/dibyajyoti-samal/)
 
+---
