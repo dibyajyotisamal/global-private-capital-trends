@@ -1,6 +1,6 @@
 ![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)
 ![Excel](https://img.shields.io/badge/Preprocessing-Excel-blue)
-![SQL](https://img.shields.io/badge/Data-Modeled%20with-SQL-lightblue)
+![SQL](https://img.shields.io/badge/Data-Modeled-with-SQL-lightblue)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 # Investment Fund Analytics Dashboard (Power BI)
