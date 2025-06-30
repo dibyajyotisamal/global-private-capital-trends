@@ -1,6 +1,6 @@
 ![Power BI](https://img.shields.io/badge/Tool-PowerBI-yellow)
 ![Excel](https://img.shields.io/badge/Preprocessing-Excel-blue)
-![SQL](https://img.shields.io/badge/Data-Modeled-with-SQL-lightblue)
+![SQL](https://img.shields.io/badge/Data_Modeled_with-SQL-lightblue)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 # Investment Fund Analytics Dashboard (Power BI)
@@ -56,8 +56,20 @@ This dashboard analyzes **$24.2 trillion in global private capital** across six 
 ### Capital Raised Over Time
 ![Panel 1 - Capital Raised](Dashboard_panels/Panel_1_Capital_Raised_Trends_by_Asset_Class_2004_2024.jpg)
 
+### Capital Deployment Trends
+![Panel 2A - Capital Deployment Trends](Dashboard_panels/Panel_2A_Capital_Deployment_Trends_by_Year_2000_2024.jpg)
+
+### Deal Volume Trends
+![Panel 2B - Deal Volume Trends](Dashboard_panels/Panel_2B_Deal_Volume_Trends_by_Year_2000_2024.jpg)
+
 ### IRR Trends by Strategy
 ![Panel 3 - IRR Trends](Dashboard_panels/Panel_3_IRR_Trends_by_Asset_Class_1Y_to_10Y_Horizon.jpg)
+
+### Top Fund Strategies 
+![Panel 4A - IRR Trends](Dashboard_panels/Panel_4A_Top_Fund_Strategies_by_Number_of_Funds_2025.jpg)
+
+### Deal Tyoe Breakdown Trends
+![Panel 4B - IRR Trends](Dashboard_panels/Panel_4B_Deal_Type_Breakdown_Trends_2014_2024.jpg)
 
 ### AUM Growth Across Strategies
 ![Panel 5 - AUM Growth](Dashboard_panels/Panel_5_AUM_Growth_by_Strategy_2000_2024.jpg)
